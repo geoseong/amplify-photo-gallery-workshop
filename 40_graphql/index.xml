@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GraphQL API 생성하기 on Amplify / AppSync / React Workshop</title>
-    <link>https://awskrug.github.io/amplify-photo-gallery-workshop/40_graphql.html</link>
+    <link>https://geoseong.github.io/amplify-photo-gallery-workshop/40_graphql.html</link>
     <description>Recent content in GraphQL API 생성하기 on Amplify / AppSync / React Workshop</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     
-	<atom:link href="https://awskrug.github.io/amplify-photo-gallery-workshop/40_graphql/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://geoseong.github.io/amplify-photo-gallery-workshop/40_graphql/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>AppSync 세팅</title>
-      <link>https://awskrug.github.io/amplify-photo-gallery-workshop/40_graphql/10_setting_up_appsync.html</link>
+      <link>https://geoseong.github.io/amplify-photo-gallery-workshop/40_graphql/10_setting_up_appsync.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://awskrug.github.io/amplify-photo-gallery-workshop/40_graphql/10_setting_up_appsync.html</guid>
+      <guid>https://geoseong.github.io/amplify-photo-gallery-workshop/40_graphql/10_setting_up_appsync.html</guid>
       <description>이제 인증된 사용자를 가지고 앨범을 만들기 위한 API를 만들어 봅시다. 이 앨범에는 아직 사진이 없고 단순히 이름과 앨범을 생성한 사용자 이름만 있을 것입니다.
 AWS AppSync를 사용하여 API를 구현하고, 데이터 기반 어플리케이션을 구현하기 위하여 관리형 GraphQL 서비스를 사용합니다. 아직 GraphQL이 익숙하지 않다면 워크샵 단계를 진행하기 전에 시간을 내어 다음 자료를 살펴 보세요. https://graphql.github.io/learn/ 단계를 계속하는 동안에도 질문이 생긴다면 위 자료를 참조하시기 바랍니다.
  AWS AppSync API 추가하기 photo-albums 디렉토리에서 다음 명령어를 수행하세요 amplify add api</description>
@@ -23,10 +23,10 @@ AWS AppSync를 사용하여 API를 구현하고, 데이터 기반 어플리케�
     
     <item>
       <title>Querie 수행하기</title>
-      <link>https://awskrug.github.io/amplify-photo-gallery-workshop/40_graphql/20_trying_out_queries.html</link>
+      <link>https://geoseong.github.io/amplify-photo-gallery-workshop/40_graphql/20_trying_out_queries.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://awskrug.github.io/amplify-photo-gallery-workshop/40_graphql/20_trying_out_queries.html</guid>
+      <guid>https://geoseong.github.io/amplify-photo-gallery-workshop/40_graphql/20_trying_out_queries.html</guid>
       <description>AWS Console에서 AppSync로 이동후에 photoalbums-master API를 클릭합니다. 이제 API를 파고들어봅시다.
  Link to AWS AppSync web console in Seoul
  Link to AWS AppSync web console in Northern Virgina

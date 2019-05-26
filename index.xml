@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Amplify Web App Workshop on Amplify / AppSync / React Workshop</title>
-    <link>https://awskrug.github.io/amplify-photo-gallery-workshop/</link>
+    <link>https://geoseong.github.io/amplify-photo-gallery-workshop/</link>
     <description>Recent content in Amplify Web App Workshop on Amplify / AppSync / React Workshop</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     
-	<atom:link href="https://awskrug.github.io/amplify-photo-gallery-workshop/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://geoseong.github.io/amplify-photo-gallery-workshop/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>AWS account 생성하기</title>
-      <link>https://awskrug.github.io/amplify-photo-gallery-workshop/10_prerequisites/1_account.html</link>
+      <link>https://geoseong.github.io/amplify-photo-gallery-workshop/10_prerequisites/1_account.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://awskrug.github.io/amplify-photo-gallery-workshop/10_prerequisites/1_account.html</guid>
+      <guid>https://geoseong.github.io/amplify-photo-gallery-workshop/10_prerequisites/1_account.html</guid>
       <description>Workshop에서 사용하고자 하는 AWS 계정은 새로운 IAM 역할을 만들수 있어야 하고 다른 IAM 권한 범위를 지정할 수 있어야 합니다.
  이미 AWS 계정을 가지고 있고, IAM 관리자 접속 권한이 있다면 이 페이지를 넘어가도 좋습니다.
   관리자 접속 권한 계정이 없다면: 새로 하나 만듭시다.
@@ -25,30 +25,30 @@ AWS 계정에 대한 관리자 권한이 있는 IAM user : 워크샵에서 사�
     
     <item>
       <title>앨범 관리</title>
-      <link>https://awskrug.github.io/amplify-photo-gallery-workshop/50_working_with_albums/5_managing_albums.html</link>
+      <link>https://geoseong.github.io/amplify-photo-gallery-workshop/50_working_with_albums/5_managing_albums.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://awskrug.github.io/amplify-photo-gallery-workshop/50_working_with_albums/5_managing_albums.html</guid>
+      <guid>https://geoseong.github.io/amplify-photo-gallery-workshop/50_working_with_albums/5_managing_albums.html</guid>
       <description>우리가 만든 웹어플리케이션은 사용자를 인증하는 기능과 안전하게 앨범 데이터를 만들고 조회하는 GraphQL API 엔드포인트가 있습니다. 이 두가지 기능을 연결해보겠습니다!
 AWS Amplify는 웹 또는 React Native 어플리케이션에 여러 클라우드 서비스를 쉽게 연동해주는 오픈소스 JavaScript라이브러리 입니다. 이제 Connect React 컴포넌트를 사용하여 리액트 컴포넌트가 렌더링 될 때 필요한 데이터를 자동으로 조회해 오도록 GraphQL API로 쿼리를 수행해봅시다.  Amplify CLI는 이미 src/aws-exports.js 에 포함된 모든 설정값을 읽어들였기 때문에 AppSync API와 통신하기 위한 설정 값을 알고 있습니다(Amplify JS 라이브러리에 전달할 설정값이 무엇인지 고민하지 않아도 됩니다).</description>
     </item>
     
     <item>
       <title>Amazon Rekognition 연동하기</title>
-      <link>https://awskrug.github.io/amplify-photo-gallery-workshop/110_ai/10_rekognition.html</link>
+      <link>https://geoseong.github.io/amplify-photo-gallery-workshop/110_ai/10_rekognition.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://awskrug.github.io/amplify-photo-gallery-workshop/110_ai/10_rekognition.html</guid>
+      <guid>https://geoseong.github.io/amplify-photo-gallery-workshop/110_ai/10_rekognition.html</guid>
       <description>직접 태깅하지 않은 이미지도 검색할 수 있으면 좋겠습니다. 다행이 Amazon Rekognition 덕분에 이 기능을 추가하기는 매우 쉽습니다. 사진을 주면 해당 이미지에 적절한 레이블로 응답하는 DetectLabels API를 사용할 수 있습니다. 완벽합니다!
 Amazon Rekognition의 DetectLabels 간략 정리  입력한 이미지를 base64 인코딩한 이미지 바이트열이나 Amazon S3 버킷에 이미지 참조로 전달합니다. AWS CLI로 Amazon Rekognition 작업을 호출하는 경우 이미지 바이트열을 전달하는 기능은 지원하지 않습니다. 이미지는 PNG 또는 JPEG 형식의 파일이어야 합니다.  API는 각 개체와 장면과 컨셉에 따라 하나 이상의 레이블을 반환합니다.</description>
     </item>
     
     <item>
       <title>AppSync 세팅</title>
-      <link>https://awskrug.github.io/amplify-photo-gallery-workshop/40_graphql/10_setting_up_appsync.html</link>
+      <link>https://geoseong.github.io/amplify-photo-gallery-workshop/40_graphql/10_setting_up_appsync.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://awskrug.github.io/amplify-photo-gallery-workshop/40_graphql/10_setting_up_appsync.html</guid>
+      <guid>https://geoseong.github.io/amplify-photo-gallery-workshop/40_graphql/10_setting_up_appsync.html</guid>
       <description>이제 인증된 사용자를 가지고 앨범을 만들기 위한 API를 만들어 봅시다. 이 앨범에는 아직 사진이 없고 단순히 이름과 앨범을 생성한 사용자 이름만 있을 것입니다.
 AWS AppSync를 사용하여 API를 구현하고, 데이터 기반 어플리케이션을 구현하기 위하여 관리형 GraphQL 서비스를 사용합니다. 아직 GraphQL이 익숙하지 않다면 워크샵 단계를 진행하기 전에 시간을 내어 다음 자료를 살펴 보세요. https://graphql.github.io/learn/ 단계를 계속하는 동안에도 질문이 생긴다면 위 자료를 참조하시기 바랍니다.
  AWS AppSync API 추가하기 photo-albums 디렉토리에서 다음 명령어를 수행하세요 amplify add api</description>
@@ -56,30 +56,30 @@ AWS AppSync를 사용하여 API를 구현하고, 데이터 기반 어플리케�
     
     <item>
       <title>Cloud9 Workspace 생성하기</title>
-      <link>https://awskrug.github.io/amplify-photo-gallery-workshop/10_prerequisites/10_workspace.html</link>
+      <link>https://geoseong.github.io/amplify-photo-gallery-workshop/10_prerequisites/10_workspace.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://awskrug.github.io/amplify-photo-gallery-workshop/10_prerequisites/10_workspace.html</guid>
+      <guid>https://geoseong.github.io/amplify-photo-gallery-workshop/10_prerequisites/10_workspace.html</guid>
       <description>AWS Cloud9은 cloud-based의 통합 개발 환경(IDE)입니다. 브라우저에서 바로 코드를 작성하고 실행시키고, 디버깅할수 있습니다. Cloud9은 코드 편집기, 디버거와 터미널을 제공합니다. 또한 Javascript, Python, PHP 등의 인기 있는 프로그래밍언어를 위한 필수적인 도구들이 미리 패키징 되어 제공됩니다. 무엇보다도 새로운 프로젝트 시작을 위해 설치 파일이 필요하거나, 개발 환경 설정이 필요하지 않습니다.
 The Cloud9의 작업영역은 AWS root 계정이 아닌, Administrator 권한을 가진 IAM user에 의해서 작성 되어야 합니다. root 계정이 아닌 IAM User로 로그인 하여 작업 중인게 맞는지 꼭 확인하세요.</description>
     </item>
     
     <item>
       <title>LIGHTBOX 만들어 전체 크기의 사진들 보기</title>
-      <link>https://awskrug.github.io/amplify-photo-gallery-workshop/140_bonus/10_lightbox_photos.html</link>
+      <link>https://geoseong.github.io/amplify-photo-gallery-workshop/140_bonus/10_lightbox_photos.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://awskrug.github.io/amplify-photo-gallery-workshop/140_bonus/10_lightbox_photos.html</guid>
+      <guid>https://geoseong.github.io/amplify-photo-gallery-workshop/140_bonus/10_lightbox_photos.html</guid>
       <description>아직 우리는 유저가 어플리케이션에서 썸네일을 클릭하여 더 큰 사진을 볼 수 있도록 하는 기능을 다루지 않았습니다. 이미 우리는 API로부터 전체 크기와 썸네일 크기의 데이터를 모두 가지고 올 수 있기 때문에, 프런트엔드 어플리케이션에 몇줄 정도 코드를 추가하는 것 만으로도 이 기능을 제공할 수 있습니다.
 프런트엔드 수정하기 아래의 수정된 버전으로 photo-albums/src/App.js를 대체 해 주세요: // photo-albums/src/App.js  import React, { Component } from &amp;#39;react&amp;#39;; import {BrowserRouter as Router, Route, NavLink} from &amp;#39;react-router-dom&amp;#39;; import { Container, Divider, Form, Grid, Header, Input, List, Modal, Segment } from &amp;#39;semantic-ui-react&amp;#39;; import {v4 as uuid} from &amp;#39;uuid&amp;#39;; import { Connect, S3Image, withAuthenticator } from &amp;#39;aws-amplify-react&amp;#39;; import Amplify, { API, graphqlOperation, Storage, Auth } from &amp;#39;aws-amplify&amp;#39;; import aws_exports from &amp;#39;.</description>
     </item>
     
     <item>
       <title>무엇을 빌드하나</title>
-      <link>https://awskrug.github.io/amplify-photo-gallery-workshop/20_getting_started/10_what_we_will_build.html</link>
+      <link>https://geoseong.github.io/amplify-photo-gallery-workshop/20_getting_started/10_what_we_will_build.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://awskrug.github.io/amplify-photo-gallery-workshop/20_getting_started/10_what_we_will_build.html</guid>
+      <guid>https://geoseong.github.io/amplify-photo-gallery-workshop/20_getting_started/10_what_we_will_build.html</guid>
       <description>목표 이 워크샵에서 다음을 포함한 몇 가지 기능이 있는 어플리케이션을 빌드합니다.
  사용자 등록 및 인증을 하게하여 누가 어떤 사진 앨범의 소유자인지 알 수 있습니다.
  API 서버를 구현해서 사용자가 소유한 앨범과 사진들을 로딩하여 보여줄 수 있습니다.
@@ -89,20 +89,20 @@ The Cloud9의 작업영역은 AWS root 계정이 아닌, Administrator 권한�
     
     <item>
       <title>백엔드 구성하기</title>
-      <link>https://awskrug.github.io/amplify-photo-gallery-workshop/30_adding_auth/10_adding_auth_back.html</link>
+      <link>https://geoseong.github.io/amplify-photo-gallery-workshop/30_adding_auth/10_adding_auth_back.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://awskrug.github.io/amplify-photo-gallery-workshop/30_adding_auth/10_adding_auth_back.html</guid>
+      <guid>https://geoseong.github.io/amplify-photo-gallery-workshop/30_adding_auth/10_adding_auth_back.html</guid>
       <description>이제 우리에게 간단한 리액트 어플리케이션이 있으니, 어플리케이션으로 사용자 등록하고 로그인하도록 만들겠습니다. 지금 아무 것도 할 수 없지만 백엔드 API에 조회하는 기능을 추가하면 어떤 사용자가 우리 시스템을 사용하는지 알 수 있습니다.
 AWS Amplify CLI는 리엑트와 리엑트 네이티브용 iOS와 안드로이드에 SDK를 제공하여 웹과 모바일 어플리케이션에 클라우드 기능을 손쉽게 추가할 수 있습니다. 시작을 위해 새 애플리케이션을 만들고 사용자 인증을 가능토록 합니다. 어플리케이션에 AWS Amplify CLI로 구성하여 어플리케이션과 오픈소스 AWS Amplify 라이브러리를 연결합니다. 이제 해야 할 것은 리액트 어플리케이션에서 이것을 사용하면 됩니다.</description>
     </item>
     
     <item>
       <title>사진을 처리하는 람다 함수 만들기</title>
-      <link>https://awskrug.github.io/amplify-photo-gallery-workshop/70_generating_thumbnails/10_creating_a_photo_processor_lambda.html</link>
+      <link>https://geoseong.github.io/amplify-photo-gallery-workshop/70_generating_thumbnails/10_creating_a_photo_processor_lambda.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://awskrug.github.io/amplify-photo-gallery-workshop/70_generating_thumbnails/10_creating_a_photo_processor_lambda.html</guid>
+      <guid>https://geoseong.github.io/amplify-photo-gallery-workshop/70_generating_thumbnails/10_creating_a_photo_processor_lambda.html</guid>
       <description>사진 처리 람다 함수를 만들어서 사진을 리사이즈 할 수 있게 합니다.
 아래 지시를 따를 때에 람다 함수명을 반드시 workshopphotoprocessor 으로 합니다.   이후에 몇가지 클라우드 포메이션 템플릿을 수정하고, 이름이 workshopphotoprocessor인 함수는 이번 워크샵을 위해 하드 코딩합니다(꼭 수정할 부분을 줄이기 위해)
   photo-albums 디렉토리에서 amplify function add를 실행해서 아래 보여진 것과 비슷한 방식으로 프롬프트에 답합니다. 두번째 단계를 계속하기 전에 엔터를 꼭 눌러야 합니다.
@@ -111,10 +111,10 @@ $ amplify function add Using service: Lambda, provided by: awscloudformation ?</
     
     <item>
       <title>축하드립니다!</title>
-      <link>https://awskrug.github.io/amplify-photo-gallery-workshop/130_wrapping_up/10_what_we_built.html</link>
+      <link>https://geoseong.github.io/amplify-photo-gallery-workshop/130_wrapping_up/10_what_we_built.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://awskrug.github.io/amplify-photo-gallery-workshop/130_wrapping_up/10_what_we_built.html</guid>
+      <guid>https://geoseong.github.io/amplify-photo-gallery-workshop/130_wrapping_up/10_what_we_built.html</guid>
       <description>실제로 상용할 어플리케이션을 만들진 않았지만, 간단하게 공유가능한 앨범 웹 어플리케이션을 만들어보았습니다.
 우리가 완료한 내용들을 다음 리스트에서 확인해보겠습니다. :
  간단한 리엑트(React) 웹 어플리케이션을 만들었습니다.
@@ -127,10 +127,10 @@ $ amplify function add Using service: Lambda, provided by: awscloudformation ?</
     
     <item>
       <title>Querie 수행하기</title>
-      <link>https://awskrug.github.io/amplify-photo-gallery-workshop/40_graphql/20_trying_out_queries.html</link>
+      <link>https://geoseong.github.io/amplify-photo-gallery-workshop/40_graphql/20_trying_out_queries.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://awskrug.github.io/amplify-photo-gallery-workshop/40_graphql/20_trying_out_queries.html</guid>
+      <guid>https://geoseong.github.io/amplify-photo-gallery-workshop/40_graphql/20_trying_out_queries.html</guid>
       <description>AWS Console에서 AppSync로 이동후에 photoalbums-master API를 클릭합니다. 이제 API를 파고들어봅시다.
  Link to AWS AppSync web console in Seoul
  Link to AWS AppSync web console in Northern Virgina
@@ -141,10 +141,10 @@ AWS AppSync의 대화형 쿼리 실행 영역인 이곳에서 쿼리를 작성�
     
     <item>
       <title>다른 유저와 앨범 공유하기</title>
-      <link>https://awskrug.github.io/amplify-photo-gallery-workshop/140_bonus/20_album_membership.html</link>
+      <link>https://geoseong.github.io/amplify-photo-gallery-workshop/140_bonus/20_album_membership.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://awskrug.github.io/amplify-photo-gallery-workshop/140_bonus/20_album_membership.html</guid>
+      <guid>https://geoseong.github.io/amplify-photo-gallery-workshop/140_bonus/20_album_membership.html</guid>
       <description>다수의 유저가 우리의 애플리케이션으로 접속할 수 있다는 장점을 이용하여 다른 유저들이 상황에 따라 우리의 앨범을 보고 업로드 할 수 있는 기능을 넣을 수 있습니다.
 가장 쉬운 방법은 각각의 앨범에 유저들의 이름(usernames)을 포함하여 그들이 이 앨범 보고 새로운 사진을 업로드할 수 있도록 하는 것입니다.
 백엔드 수정하기 Amplify는 GraphQL 스키마 안의 @model 타입에서 여러 개의 권한 선언을 지원합니다. 우리는 두 번째 권한 규칙을 추가함으로서 Album의 members 필드에 있는 유저가 해당 레코드를 볼 수 있게 할 수 있습니다.</description>
@@ -152,10 +152,10 @@ AWS AppSync의 대화형 쿼리 실행 영역인 이곳에서 쿼리를 작성�
     
     <item>
       <title>리소스 삭제하기</title>
-      <link>https://awskrug.github.io/amplify-photo-gallery-workshop/130_wrapping_up/20_cleanup.html</link>
+      <link>https://geoseong.github.io/amplify-photo-gallery-workshop/130_wrapping_up/20_cleanup.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://awskrug.github.io/amplify-photo-gallery-workshop/130_wrapping_up/20_cleanup.html</guid>
+      <guid>https://geoseong.github.io/amplify-photo-gallery-workshop/130_wrapping_up/20_cleanup.html</guid>
       <description>Amplify로 삭제하기 Amplify는 우리가 이번 워크샵에서 프로비저닝했던 모든 리소스들을 삭제하는 작업을 할 수 있습니다 (프로비저닝된 CloudFormation 중첩스택을 삭제하는 작업을 시도합니다). 그러나 몇가지 리소스들은 수동으로 삭제해줘야 합니다. (삭제 거부)
  photo-albums 디렉토리에서 amplify delete를 실행하고 삭제를 확인하기 위해 Enter 키를 누릅니다.
  Amplify가 리소스들을 삭제하는 동안 기다립니다.
@@ -164,20 +164,20 @@ AWS AppSync의 대화형 쿼리 실행 영역인 이곳에서 쿼리를 작성�
     
     <item>
       <title>사진 버킷을 처리함수와 연결하기</title>
-      <link>https://awskrug.github.io/amplify-photo-gallery-workshop/70_generating_thumbnails/20_connecting_the_lambda_to_the_bucket.html</link>
+      <link>https://geoseong.github.io/amplify-photo-gallery-workshop/70_generating_thumbnails/20_connecting_the_lambda_to_the_bucket.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://awskrug.github.io/amplify-photo-gallery-workshop/70_generating_thumbnails/20_connecting_the_lambda_to_the_bucket.html</guid>
+      <guid>https://geoseong.github.io/amplify-photo-gallery-workshop/70_generating_thumbnails/20_connecting_the_lambda_to_the_bucket.html</guid>
       <description>새 사진이 S3 버킷에 업로드된 후에 함수 동작시키기 사진 처리 함수를 만들었으니 이제는 함수를 실행하는 트리거를 설정해야합니다. 앨범에 업로드된 모든 사진을 처리해야 하기 때문에, Amplify로 생성한 S3 사용자 파일 버킷의 구성을 수정하여 이러한 변경 작업을 수행합니다.
  photo-albums/amplify/backend/storage/photoalbumsstorage/s3-cloudformation-template.json 파일을 다음 내용으로 변경해주십시요. { &amp;#34;AWSTemplateFormatVersion&amp;#34;: &amp;#34;2010-09-09&amp;#34;, &amp;#34;Description&amp;#34;: &amp;#34;S3 resource stack creation using Amplify CLI&amp;#34;, &amp;#34;Parameters&amp;#34;: { &amp;#34;bucketName&amp;#34;: { &amp;#34;Type&amp;#34;: &amp;#34;String&amp;#34; }, &amp;#34;authPolicyName&amp;#34;: { &amp;#34;Type&amp;#34;: &amp;#34;String&amp;#34; }, &amp;#34;unauthPolicyName&amp;#34;: { &amp;#34;Type&amp;#34;: &amp;#34;String&amp;#34; }, &amp;#34;authRoleName&amp;#34;: { &amp;#34;Type&amp;#34;: &amp;#34;String&amp;#34; }, &amp;#34;unauthRoleName&amp;#34;: { &amp;#34;Type&amp;#34;: &amp;#34;String&amp;#34; }, &amp;#34;s3PublicPolicy&amp;#34;: { &amp;#34;Type&amp;#34;: &amp;#34;String&amp;#34; }, &amp;#34;s3PrivatePolicy&amp;#34;: { &amp;#34;Type&amp;#34;: &amp;#34;String&amp;#34; }, &amp;#34;s3ProtectedPolicy&amp;#34;: { &amp;#34;Type&amp;#34;: &amp;#34;String&amp;#34; }, &amp;#34;s3UploadsPolicy&amp;#34;: { &amp;#34;Type&amp;#34;: &amp;#34;String&amp;#34; }, &amp;#34;s3ReadPolicy&amp;#34;: { &amp;#34;Type&amp;#34;: &amp;#34;String&amp;#34; }, &amp;#34;s3PermissionsAuthenticatedPublic&amp;#34;: { &amp;#34;Type&amp;#34;: &amp;#34;String&amp;#34; }, &amp;#34;s3PermissionsAuthenticatedProtected&amp;#34;: { &amp;#34;Type&amp;#34;: &amp;#34;String&amp;#34; }, &amp;#34;s3PermissionsAuthenticatedPrivate&amp;#34;: { &amp;#34;Type&amp;#34;: &amp;#34;String&amp;#34; }, &amp;#34;s3PermissionsAuthenticatedUploads&amp;#34;: { &amp;#34;Type&amp;#34;: &amp;#34;String&amp;#34; }, &amp;#34;s3PermissionsGuestPublic&amp;#34;: { &amp;#34;Type&amp;#34;: &amp;#34;String&amp;#34; },	&amp;#34;s3PermissionsGuestUploads&amp;#34;: { &amp;#34;Type&amp;#34;: &amp;#34;String&amp;#34; }, &amp;#34;AuthenticatedAllowList&amp;#34;: { &amp;#34;Type&amp;#34;: &amp;#34;String&amp;#34; }, &amp;#34;GuestAllowList&amp;#34;: { &amp;#34;Type&amp;#34;: &amp;#34;String&amp;#34; }, 	&amp;#34;selectedGuestPermissions&amp;#34;: { &amp;#34;Type&amp;#34;: &amp;#34;CommaDelimitedList&amp;#34; }, &amp;#34;selectedAuthenticatedPermissions&amp;#34;: { &amp;#34;Type&amp;#34;: &amp;#34;CommaDelimitedList&amp;#34; }, &amp;#34;env&amp;#34;: { &amp;#34;Type&amp;#34;: &amp;#34;String&amp;#34; } }, &amp;#34;Conditions&amp;#34;: { &amp;#34;ShouldNotCreateEnvResources&amp;#34;: { &amp;#34;Fn::Equals&amp;#34;: [ { &amp;#34;Ref&amp;#34;: &amp;#34;env&amp;#34; }, &amp;#34;NONE&amp;#34; ] }, &amp;#34;CreateAuthPublic&amp;#34;: { &amp;#34;Fn::Not&amp;#34; : [{ &amp;#34;Fn::Equals&amp;#34; : [ {&amp;#34;Ref&amp;#34; : &amp;#34;s3PermissionsAuthenticatedPublic&amp;#34;}, &amp;#34;DISALLOW&amp;#34; ] }] }, &amp;#34;CreateAuthProtected&amp;#34;: { &amp;#34;Fn::Not&amp;#34; : [{ &amp;#34;Fn::Equals&amp;#34; : [ {&amp;#34;Ref&amp;#34; : &amp;#34;s3PermissionsAuthenticatedProtected&amp;#34;}, &amp;#34;DISALLOW&amp;#34; ] }] }, &amp;#34;CreateAuthPrivate&amp;#34;: { &amp;#34;Fn::Not&amp;#34; : [{ &amp;#34;Fn::Equals&amp;#34; : [ {&amp;#34;Ref&amp;#34; : &amp;#34;s3PermissionsAuthenticatedPrivate&amp;#34;}, &amp;#34;DISALLOW&amp;#34; ] }] }, &amp;#34;CreateAuthUploads&amp;#34;: { &amp;#34;Fn::Not&amp;#34; : [{ &amp;#34;Fn::Equals&amp;#34; : [ {&amp;#34;Ref&amp;#34; : &amp;#34;s3PermissionsAuthenticatedUploads&amp;#34;}, &amp;#34;DISALLOW&amp;#34; ] }] }, &amp;#34;CreateGuestPublic&amp;#34;: { &amp;#34;Fn::Not&amp;#34; : [{ &amp;#34;Fn::Equals&amp;#34; : [ {&amp;#34;Ref&amp;#34; : &amp;#34;s3PermissionsGuestPublic&amp;#34;}, &amp;#34;DISALLOW&amp;#34; ] }] }, &amp;#34;CreateGuestUploads&amp;#34;: { &amp;#34;Fn::Not&amp;#34; : [{ &amp;#34;Fn::Equals&amp;#34; : [ {&amp;#34;Ref&amp;#34; : &amp;#34;s3PermissionsGuestUploads&amp;#34;}, &amp;#34;DISALLOW&amp;#34; ] }] }, &amp;#34;AuthReadAndList&amp;#34;: { &amp;#34;Fn::Not&amp;#34; : [{ &amp;#34;Fn::Equals&amp;#34; : [ {&amp;#34;Ref&amp;#34; : &amp;#34;AuthenticatedAllowList&amp;#34;}, &amp;#34;DISALLOW&amp;#34; ] }] }, &amp;#34;GuestReadAndList&amp;#34;: { &amp;#34;Fn::Not&amp;#34; : [{ &amp;#34;Fn::Equals&amp;#34; : [ {&amp;#34;Ref&amp;#34; : &amp;#34;GuestAllowList&amp;#34;}, &amp;#34;DISALLOW&amp;#34; ] }] } }, &amp;#34;Resources&amp;#34;: { &amp;#34;InvokePhotoProcessorLambda&amp;#34;: { &amp;#34;Type&amp;#34; : &amp;#34;AWS::Lambda::Permission&amp;#34;, &amp;#34;Properties&amp;#34; : { &amp;#34;Action&amp;#34; : &amp;#34;lambda:InvokeFunction&amp;#34;, &amp;#34;FunctionName&amp;#34; : &amp;#34;workshopphotoprocessor&amp;#34;, &amp;#34;Principal&amp;#34; : &amp;#34;s3.</description>
     </item>
     
     <item>
       <title>사진을 검색할 수 있게 만들기</title>
-      <link>https://awskrug.github.io/amplify-photo-gallery-workshop/110_ai/20_prep_for_searching.html</link>
+      <link>https://geoseong.github.io/amplify-photo-gallery-workshop/110_ai/20_prep_for_searching.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://awskrug.github.io/amplify-photo-gallery-workshop/110_ai/20_prep_for_searching.html</guid>
+      <guid>https://geoseong.github.io/amplify-photo-gallery-workshop/110_ai/20_prep_for_searching.html</guid>
       <description>GraphQL 스키마 갱신하기 이제 각 사진의 레이블을 저장할 수 있으니, AppSync API를 통해 이 데이터를 노출할 준비가 되었습니다.
 DynamoDB 쿼리로 검색하는 방법도 가능하지만, Amazon Elasticsearch Service를 사용하여 데이터를 색인하고 검색 쿼리를 다루는 방식이 좀 더 유연하고 효율적입니다. 다행이 Amplify CLI는 매우 쉽게 Amazon Elasticsearch 엔드포인트를 생성하고 어플리케이션 데이터와 연결합니다.
  photo-albums/amplify/backend/api/photoalbums/schema.graphql 을 다음 내용으로 변경합니다. # amplify/backend/api/photo-albums/schema.graphql type Album @model @auth(rules: [{allow: owner}]) { id: ID! name: String! photos: [Photo] @connection(name: &amp;#34;AlbumPhotos&amp;#34;) } type Photo @model @auth(rules: [{allow: owner}]) @searchable {  id: ID!</description>
@@ -185,10 +185,10 @@ DynamoDB 쿼리로 검색하는 방법도 가능하지만, Amazon Elasticsearch 
     
     <item>
       <title>설치 &amp; 설정</title>
-      <link>https://awskrug.github.io/amplify-photo-gallery-workshop/10_prerequisites/20_software.html</link>
+      <link>https://geoseong.github.io/amplify-photo-gallery-workshop/10_prerequisites/20_software.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://awskrug.github.io/amplify-photo-gallery-workshop/10_prerequisites/20_software.html</guid>
+      <guid>https://geoseong.github.io/amplify-photo-gallery-workshop/10_prerequisites/20_software.html</guid>
       <description>코딩을 시작하기 전에, Cloud9 환경에 몇 가지 설치, 업데이트, 설정을 해야합니다.
 로컬 환경에서 실습을 진행하실 분들은 각자 환경에 맞춰서 설정하시기 바랍니다.
  설치와 업데이트 Cloud9 터미널에서 다음 명령어를 수행하세요. 우리가 사용할 몇 가지 소프트웨어를 설치하고 업데이트 합니다.
@@ -197,10 +197,10 @@ DynamoDB 쿼리로 검색하는 방법도 가능하지만, Amazon Elasticsearch 
     
     <item>
       <title>어플리케이션 부트스트래핑</title>
-      <link>https://awskrug.github.io/amplify-photo-gallery-workshop/20_getting_started/20_bootstrapping_the_app.html</link>
+      <link>https://geoseong.github.io/amplify-photo-gallery-workshop/20_getting_started/20_bootstrapping_the_app.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://awskrug.github.io/amplify-photo-gallery-workshop/20_getting_started/20_bootstrapping_the_app.html</guid>
+      <guid>https://geoseong.github.io/amplify-photo-gallery-workshop/20_getting_started/20_bootstrapping_the_app.html</guid>
       <description>리액트(React) 어플리케이션 만들기 create-react-app CLI로 새로운 리액트 웹 어플리케이션을 제작하며 시작하겠습니다.
 이는 로컬에서 자동으로 다시 서버를 띄워주는 리액트 샘플 어플리케이션과 브라우저에서 async/await 문법, 화살표 함수 등을 지원하도록 트랜스 컴파일 기능을 제공합니다.
  create-react-app은 https://github.com/facebook/create-react-app에서 좀 더 배울 수 있습니다.
@@ -211,10 +211,10 @@ DynamoDB 쿼리로 검색하는 방법도 가능하지만, Amazon Elasticsearch 
     
     <item>
       <title>프론트엔드 렌더링</title>
-      <link>https://awskrug.github.io/amplify-photo-gallery-workshop/30_adding_auth/20_adding_auth_front.html</link>
+      <link>https://geoseong.github.io/amplify-photo-gallery-workshop/30_adding_auth/20_adding_auth_front.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://awskrug.github.io/amplify-photo-gallery-workshop/30_adding_auth/20_adding_auth_front.html</guid>
+      <guid>https://geoseong.github.io/amplify-photo-gallery-workshop/30_adding_auth/20_adding_auth_front.html</guid>
       <description>이제 등록과 로그인을 관리하는 백엔드가 구성되었으니 withAuthenticator AWS Amplify의 상위 리액트 컴포넌트를 이용해서 기존 App 컴포넌트를 감싸도록 합니다. 그러면 어플리케이션에서 사용자 등록, 확인, 로그인, 로그 아웃, 비밀번호 재설정을 할 수 있는 간단한 UI를 제공합니다.
 Amplify npm 라이브러리 추가 아직 aws-amplify, aws-amplify-react 모듈을 어플리케이션에 추가하지 않았으니 이제 추가합니다.
  npm install --save aws-amplify aws-amplify-react을 실행합니다.
@@ -223,10 +223,10 @@ Amplify npm 라이브러리 추가 아직 aws-amplify, aws-amplify-react 모듈�
     
     <item>
       <title>Cloud Storage 추가하기</title>
-      <link>https://awskrug.github.io/amplify-photo-gallery-workshop/60_managing_photos/30_adding_storage.html</link>
+      <link>https://geoseong.github.io/amplify-photo-gallery-workshop/60_managing_photos/30_adding_storage.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://awskrug.github.io/amplify-photo-gallery-workshop/60_managing_photos/30_adding_storage.html</guid>
+      <guid>https://geoseong.github.io/amplify-photo-gallery-workshop/60_managing_photos/30_adding_storage.html</guid>
       <description>앨범에 업로드한 모든 사진들을 보관할 저장소가 필요합니다. Amazon Simple Storage Service (S3)는 이를 위한 좋은 서비스이기도 하고 Amplify의 스토리지 모듈을 이용하면 S3에 대한 설정과 작업이 아주 쉽습니다.
 스토리지 구성 및 추가 먼저 Amplify CLI를 사용하여 스토리지를 활성화합니다. Amazon S3에 버킷이 생성되고 적절한 권한으로 설정되어 어플리케이션에 로그인 한 사용자가 읽고 쓸 수 있습니다. 또한 앨범을 공개 하는 경우 인증되지 않은 게스트 사용자가 버킷을 읽을 수 있도록 허용합니다.
 Configuring and adding storage  사진앨범 디렉토리에서 다음 명령어를 수행합니다.</description>
@@ -234,10 +234,10 @@ Configuring and adding storage  사진앨범 디렉토리에서 다음 명령어
     
     <item>
       <title>사진 관리하기</title>
-      <link>https://awskrug.github.io/amplify-photo-gallery-workshop/60_managing_photos/40_upload_photos_consolidated.html</link>
+      <link>https://geoseong.github.io/amplify-photo-gallery-workshop/60_managing_photos/40_upload_photos_consolidated.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://awskrug.github.io/amplify-photo-gallery-workshop/60_managing_photos/40_upload_photos_consolidated.html</guid>
+      <guid>https://geoseong.github.io/amplify-photo-gallery-workshop/60_managing_photos/40_upload_photos_consolidated.html</guid>
       <description>사진을 저장할수 있는 S3 bucket이 생겼으니 사진을 버킷에 사진을 업로드 하도록 도와줄 UI가 필요합니다. 그리고 앨범에 속한 모든 사진들을 로드 하기 위해서 사진들이 앨범에서 어떤 특정 부분에 속하는지 추적 할수 있어야 합니다.
 새로운 S3ImageUpload 컴포넌트를 만들어 봅시다. 이 컴포넌트는 사용자가 사진을 선택할때 이벤트 핸들러를 실행시키는 input 엘리먼트를 가진 HTML이 포함되어 있습니다.
 업로드 이벤트 핸들러를 통해 사진이 어떤 앨범에 들어갈지 설명하는 주석을 가진 메터데이터가 있는 파일을 S3에 업로드 합니다. 다행히 Amplify JS Storage module을 이용하면 S3에 파일업로드 작업을 매우 쉽게 할 수 있습니다.</description>
@@ -245,10 +245,10 @@ Configuring and adding storage  사진앨범 디렉토리에서 다음 명령어
     
     <item>
       <title>사진을 레이블로 검색하기</title>
-      <link>https://awskrug.github.io/amplify-photo-gallery-workshop/110_ai/40_searching_for_labels.html</link>
+      <link>https://geoseong.github.io/amplify-photo-gallery-workshop/110_ai/40_searching_for_labels.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://awskrug.github.io/amplify-photo-gallery-workshop/110_ai/40_searching_for_labels.html</guid>
+      <guid>https://geoseong.github.io/amplify-photo-gallery-workshop/110_ai/40_searching_for_labels.html</guid>
       <description>백엔드 작업이 완료되었으니 이제 사진을 레이블로 검색할 수 있게 하겠습니다.
 새 Search 컴포넌트를 생성하고 App 컴포넌트에 루트 경로로 표시되도록 추가합니다. Search 컴포넌트에서 검색된 모든 사진을 표시하기위해 이미 생성한 PhotoList 컴포넌트를 재사용합니다.
 photo-albums/src/App.js을 다음 내용으로 변경합니다. // photo-albums/src/App.js  import React, { Component } from &amp;#39;react&amp;#39;; import {BrowserRouter as Router, Route, NavLink} from &amp;#39;react-router-dom&amp;#39;; import { Divider, Form, Grid, Header, Input, List, Segment } from &amp;#39;semantic-ui-react&amp;#39;; import {v4 as uuid} from &amp;#39;uuid&amp;#39;; import { Connect, S3Image, withAuthenticator } from &amp;#39;aws-amplify-react&amp;#39;; import Amplify, { API, graphqlOperation, Storage, Auth } from &amp;#39;aws-amplify&amp;#39;; import aws_exports from &amp;#39;.</description>
@@ -256,10 +256,10 @@ photo-albums/src/App.js을 다음 내용으로 변경합니다. // photo-albums/
     
     <item>
       <title>S3에 어플리케이션 배포하기</title>
-      <link>https://awskrug.github.io/amplify-photo-gallery-workshop/120_deploying/10_deploying.html</link>
+      <link>https://geoseong.github.io/amplify-photo-gallery-workshop/120_deploying/10_deploying.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://awskrug.github.io/amplify-photo-gallery-workshop/120_deploying/10_deploying.html</guid>
+      <guid>https://geoseong.github.io/amplify-photo-gallery-workshop/120_deploying/10_deploying.html</guid>
       <description>우리가 어플리케이션을 구축 및 배포하기 전에, 우리는 Cloud9 인스턴스의 메모리를 올려봅시다. 만약 여러분께서 Cloud9 인스턴스 타입을 micro를 사용한다면 개발 웹서버 구동을 지속하고 프로덕션을 구축할 수 있는 충분한 메모리가 없기때문에 지금이 좋은 기회입니다.
  개발 웹서버를 구동하고 있는 터미널 탭으로 이동합니다. (npm start 를 실행했던 터미널입니다)
  개발 웹서버를 중단하고 프로세스를 죽일 수 있도록 Control-C 단축키를 누릅니다.
