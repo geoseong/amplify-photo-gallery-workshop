@@ -3,8 +3,8 @@
 	"Description": "Lambda resource stack creation using Amplify CLI",
 	"Parameters": {
 		"env": {
-            "Type": "String"
-        },
+			"Type": "String"
+		},
 		"S3UserfilesBucketName": {
 			"Type": "String"
 		},
@@ -12,12 +12,38 @@
 			"Type": "String"
 		}
 	},
+	"Conditions": {
+		"ShouldNotCreateEnvResources": {
+			"Fn::Equals": [
+				{
+					"Ref": "env"
+				},
+				"NONE"
+			]
+		}
+	},
 	"Resources": {
 		"LambdaFunction": {
 			"Type": "AWS::Lambda::Function",
+			"Metadata": {
+				"aws:asset:path": "./src",
+				"aws:asset:property": "Code"
+			},
 			"Properties": {
 				"Handler": "index.handler",
 				"FunctionName": "workshopphotoprocessor",
+				"Environment": {
+					"Variables": {
+						"ENV": {
+							"Ref": "env"
+						},
+						"THUMBNAIL_WIDTH": "80",
+						"THUMBNAIL_HEIGHT": "80",
+						"DYNAMODB_PHOTOS_TABLE_ARN": {
+							"Ref": "DynamoDBPhotosTableArn"
+						}
+					}
+				},
 				"Role": {
 					"Fn::GetAtt": [
 						"LambdaExecutionRole",
@@ -26,20 +52,33 @@
 				},
 				"Runtime": "nodejs8.10",
 				"Timeout": "25",
-				"Environment": {
-					"Variables": {
-						"ENV": {"Ref": "env"},
-						"THUMBNAIL_WIDTH": "80",
-						"THUMBNAIL_HEIGHT": "80",
-						"DYNAMODB_PHOTOS_TABLE_ARN": { "Ref": "DynamoDBPhotosTableArn" }
-					}
+				"Code": {
+					"S3Bucket": "photo-albums-master-20190525134216-deployment",
+					"S3Key": "amplify-builds/workshopphotoprocessor-1558854128-latest-build.zip"
 				}
 			}
 		},
 		"LambdaExecutionRole": {
 			"Type": "AWS::IAM::Role",
 			"Properties": {
-				"RoleName": "photoalbumsLambdaRole91d2faf3",
+				"RoleName": {
+					"Fn::If": [
+						"ShouldNotCreateEnvResources",
+						"photoalbumsLambdaRole6c509ea0",
+						{
+							"Fn::Join": [
+								"",
+								[
+									"photoalbumsLambdaRole6c509ea0",
+									"-",
+									{
+										"Ref": "env"
+									}
+								]
+							]
+						}
+					]
+				},
 				"AssumeRolePolicyDocument": {
 					"Version": "2012-10-17",
 					"Statement": [
@@ -165,11 +204,17 @@
 			}
 		},
 		"RekognitionDetectLabels": {
-			"DependsOn": [ "LambdaExecutionRole" ],
+			"DependsOn": [
+				"LambdaExecutionRole"
+			],
 			"Type": "AWS::IAM::Policy",
 			"Properties": {
 				"PolicyName": "RekognitionDetectLabels",
-				"Roles": [ { "Ref": "LambdaExecutionRole" } ],
+				"Roles": [
+					{
+						"Ref": "LambdaExecutionRole"
+					}
+				],
 				"PolicyDocument": {
 					"Version": "2012-10-17",
 					"Statement": [
@@ -183,7 +228,7 @@
 					]
 				}
 			}
-		}		
+		}
 	},
 	"Outputs": {
 		"Name": {
